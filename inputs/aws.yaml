@@ -1,2 +1,4 @@
 # Input file
 ami: ami-46c1b650
+instance_type: t2.small
+agent_user: centos
