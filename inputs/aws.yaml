@@ -1,4 +1,5 @@
 # Input file
-ami: ami-46c1b650
+# CentOS 7 (x86_64) - with Updates HVM - US East (N. Virginia)
+ami: ami-db48ada1
 instance_type: t2.small
 agent_user: centos
