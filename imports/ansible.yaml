@@ -203,7 +203,7 @@ node_templates:
     properties:
       resource_config:
         file_path: { get_input: ansible_private_key_file }
-        file_content: { get_secret: agent_key_private }
+        file_content: { get_secret: agent_key_private_data }
         file_permissions: '0600'
     relationships:
       - type: cloudify.relationships.contained_in
